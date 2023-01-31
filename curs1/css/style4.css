@@ -1,0 +1,15 @@
+div{
+    border: brown solid 8px ;
+    margin: 4px auto;
+    padding: 4px;
+    background-color: purple;
+}
+div > div > div{
+    background-color: aqua;
+}
+div > div{
+    background-color: pink;
+}
+div > div > p{
+    color: red;
+}
