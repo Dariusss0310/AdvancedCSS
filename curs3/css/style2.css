@@ -1,0 +1,39 @@
+#elementToAnimate{
+    position: relative;
+    animation: yourAnimation 5s linear 0s infinite normal none;
+    color: red;
+}
+@keyframes yourAnimation{
+    0%{
+        transform: translate(0,0) rotate(0deg) scale(1);
+    }
+    12%{
+        transform: translate(50px,0) rotate(0deg) scale(2);
+    }
+    25%{
+        transform: translate(50px,50px) rotate(90deg) scale(3);
+    }
+    35%{
+        transform: translate(150px,50px) rotate(0deg) scale(3);
+    }
+    50%{
+        transform: translate(400px,0) rotate(-90deg) scale(3);
+    }
+    66%{
+        transform: translate(800px,0) rotate(0deg) scale(3);
+    }
+    83%{
+        transform: translate(1600px,0) rotate(0deg) scale(3);
+    }
+    100%{
+        transform: translate(1600px,50px) rotate(90deg) scale(3);
+    }
+}
+#demogame{
+    background-image: url("https://imageio.forbes.com/blogs-images/startswithabang/files/2020/04/opo9601c-1200x947.jpg");
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
